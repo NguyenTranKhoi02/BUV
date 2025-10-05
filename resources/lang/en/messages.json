@@ -1,0 +1,251 @@
+{
+    "header": {
+        "home": "Home",
+        "stories": "Stories",
+        "language": {
+            "vietnamese": "Vietnamese",
+            "english": "English",
+            "vie": "Vie",
+            "eng": "Eng"
+        }
+    },
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "news": "News",
+        "contact": "Contact",
+        "services": "Services",
+        "products": "Products"
+    },
+    "common": {
+        "read_more": "Read more",
+        "view_all": "View all",
+        "search": "Search",
+        "share": "Share",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "close": "Close",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "save": "Save",
+        "edit": "Edit",
+        "delete": "Delete",
+        "confirm": "Confirm",
+        "loading": "Loading...",
+        "no_data": "No data available",
+        "contact_us": "Contact Us",
+        "quick_links": "Quick Links"
+    },
+    "footer": {
+        "copyright": "© 2024 BUV. All rights reserved.",
+        "university_name": "BRITISH UNIVERSITY VIETNAM",
+        "website": "Website",
+        "email": "Email",
+        "address": "Address",
+        "address_detail": "British University Vietnam, Ecopark Township, Hung Yen",
+        "address_note": "20 minutes from Hanoi city centre",
+        "follow_us": "FOLLOW US",
+        "social_media": "Social Media"
+    },
+    "pages": {
+        "home": {
+            "title": "Home - BUV",
+            "description": "Welcome to BUV",
+            "main_title": "THE LIONHEARTED stories",
+            "main_description": "Discover the Lionhearted journeys of the BUV community - where education goes beyond knowledge to nurture graduates who stand resilient, lead with confidence, care for others, and pioneer change in an uncertain world",
+            "resilient": {
+                "title": "RESILIENT",
+                "description": "The ability to rise through adversity"
+            },
+            "confident": {
+                "title": "CONFIDENT",
+                "description": "The voice to speak, lead and act"
+            },
+            "strategic": {
+                "title": "STRATEGIC",
+                "description": "The clarity to see beyond today"
+            },
+            "caring": {
+                "title": "CARING",
+                "description": "For self, others, and the world around them"
+            },
+            "leading": {
+                "title": "LEADING",
+                "description": "The mindset to step up and shape the future"
+            },
+            "banner": {
+                "desktop_image": "./images/banner-pc-en.png",
+                "mobile_image": "./images/banner-mobile-en.png",
+                "alt_text": "BUV Banner English"
+            },
+            "stories": {
+                "title": "EXPLORE THE LIONHEARTED STORIES",
+                "tabs": {
+                    "all": "All",
+                    "resilient": "Resilient",
+                    "caring": "Caring",
+                    "leading": "Leading", 
+                    "confident": "Confident",
+                    "strategic": "Strategic"
+                }
+            }
+        },
+        "stories": {
+            "title": "EXPLORE THE LIONHEARTED STORIES",
+            "description": "Stories at BUV",
+            "tabs": {
+                "all": "All",
+                "resilient": "Resilient",
+                "caring": "Caring",
+                "leading": "Leading", 
+                "confident": "Confident",
+                "strategic": "Strategic"
+            },
+            "list": [
+                {
+                    "id": 1,
+                    "title": "From BUV graduate to Oxford PhD scholar",
+                    "author": "Trần Bích Phương",
+                    "description": "With steadfast dedication to research, Bích Phương went on to earn her Master’s and PhD in Europe, and today is a postdoctoral researcher at the University of Oxford.",
+                    "categories": ["resilient", "strategic"],
+                    "image": "./images/tran-bich-phuong.png",
+                    "link": "#"
+                },
+                {
+                    "id": 2,
+                    "title": "From a small-town girl to the global stage",
+                    "author": "Chu Thị Phương Anh",
+                    "description": "Coming from a modest family and being the first to attend university, Phương Anh took a bold turn by striving for a scholarship at an international institution.",
+                    "categories": ["resilient", "confident", "strategic", "caring", "leading"],
+                    "image": "./images/chu-thi-phuong-anh.png",
+                    "link": "#"
+                },
+                {
+                    "id": 3,
+                    "title": "From a remote village to the gate of an International University",
+                    "author": "Ốc Thị Quỳnh Anh",
+                    "description": "Born in a small mountain village of Nghệ An, Quỳnh Anh endured hardship and loss but kept alive a spark of hope through education.",
+                    "categories": ["resilient", "confident", "caring", "leading"],
+                    "image": "./images/oc-thi-quynh-anh.png",
+                    "link": "#"
+                },
+
+
+                {
+                    "id": 9,
+                    "title": "From a rejection letter to international research acclaim",
+                    "author": "Lý Minh Anh",
+                    "description": "A rejection from Cornell did not end Minh Anh’s dream of research. It opened the way for her to continue at the University of Colorado Boulder, where she rose to international stages as a speaker.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/ly-minh-anh.png",
+                    "link": "#"
+                },
+                {
+                    "id": 10,
+                    "title": "From a shy sheep to a roaring lion",
+                    "author": "Đỗ Linh Giang",
+                    "description": "Once a timid girl who avoided every gaze, Linh Giang found the courage to step out of her comfort zone.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/do-linh-giang.png",
+                    "link": "#"
+                },
+                {
+                    "id": 11,
+                    "title": "From a 'rebellious' student to a resilient young leader",
+                    "author": "Nguyễn Ngọc Nhật Anh",
+                    "description": "Once labeled a “problem student” with average grades, Nhật Anh transformed through determination and earned a full scholarship at BUV, opening a new chapter of growth.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/nguyen-ngoc-nhat-anh.png",
+                    "link": "#"
+                },
+
+
+                {
+                    "id": 4,
+                    "title": "Từ nghịch cảnh đến hành trình lan tỏa giá trị cho cộng đồng",
+                    "author": "Trịnh Thị Kim Chung",
+                    "description": "Gần hai năm trước, khi đang là một người mẹ, một nữ khởi nghiệp và sống trọn vẹn với ước mơ, Kim Chung bất ngờ đối diện với chẩn đoán ung thư giai đoạn cuối.",
+                    "categories": ["resilient", "caring", "leading"],
+                    "image": "./images/trinh-thi-kim-chung.png",
+                    "link": "#"
+                },
+                {
+                    "id": 5,
+                    "title": "Từ nỗ lực vượt sướng đến hành trình khởi nghiệp ở tuổi 18",
+                    "author": "Lê Thị Minh Yến",
+                    "description": "Minh Yến từng bước “vượt sướng”, từ khởi nghiệp đầu tư chứng khoán khi mới 18 tuổi đến sáng lập học viện đầu tư tài chính Genstock. Mỗi lựa chọn táo bạo đều trở thành chất liệu để Yến xây dựng hành trình bền bỉ và giàu trải nghiệm.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/le-thi-minh-yen.png",
+                    "link": "#"
+                },
+                {
+                    "id": 6,
+                    "title": "Từ vòng tay của ông ngoại đến những bước chân bản lĩnh",
+                    "author": "Lê Minh Đức",
+                    "description": "Sinh ra với bệnh xương thủy tinh, trải qua 40 lần gãy xương và 15 ca phẫu thuật, Minh Đức vẫn kiên cường nuôi giấc mơ học tập. Giành Học bổng Nhà Sáng Lập 2024 của BUV, Đức từng bước vượt qua giới hạn, trở nên tự tin và gắn kết với cộng đồng quốc tế.",
+                    "categories": ["resilient", "confident", "caring"],
+                    "image": "./images/le-minh-duc.png",
+                    "link": "#"
+                },
+
+                {
+                    "id": 12,
+                    "title": "From the will to live to a journey of planting seeds of hope",
+                    "author": "Nguyễn Thị Oanh",
+                    "description": "Weighing just 900 grams at birth and once abandoned by her own family, Oanh never stopped believing in her value. From the Lionhearted Scholarship to graduating with Distinction, she has turned pain into hope through education and volunteer work.",
+                    "categories": ["resilient", "caring"],
+                    "image": "./images/nguyen-thi-oanh.png",
+                    "link": "#"
+                },
+                {
+                    "id": 13,
+                    "title": "From dreams through hospital windows to rebuilding a hometown",
+                    "author": "Vi Thanh Nhật",
+                    "description": "Born in a Thai ethnic village with a lifelong blood disorder, Thanh Nhật transformed years in hospital wards into motivation to rise and dream of rebuilding his community.",
+                    "categories": ["resilient", "confident", "caring"], 
+                    "image": "./images/vi-thanh-nhat.png",
+                    "link": "#"
+                },
+                {
+                    "id": 14,
+                    "title": "From the pressure of achievement to self-acceptance",
+                    "author": "Phạm Hoàng Minh Khuê",
+                    "description": "Under constant pressure to stay on top, Minh Khuê learned to embrace herself, turning struggles into a message that encourages young people to dare to try and to change.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/pham-hoang-minh-khue.png",
+                    "link": "#"
+                },
+
+
+                {
+                    "id": 7,
+                    "title": "From self-doubt to a mentor inspiring confidence",
+                    "author": "Trần Minh Đức",
+                    "description": "Once clouded by self-doubt, Minh Đức grew through leading the Vscholar project, where he passed on opportunities and confidence to others.",
+                    "categories": ["resilient", "confident", "strategic", "caring"],
+                    "image": "./images/tran-minh-duc.png",
+                    "link": "#"
+                },
+                {
+                    "id": 8,
+                    "title": "When a woman is educated, an entire generation is transformed",
+                    "author": "Bùi Thị Thanh Phương",
+                    "description": "Becoming a mother at 18, Thanh Phương once faltered under judgmental eyes. But with love and faith, she found her strength again at BUV, reclaiming her worth and moving forward with confidence.",
+                    "categories": ["resilient", "caring", "leading"],
+                    "image": "./images/bui-thi-thanh-phuong.png",
+                    "link": "#"
+                },
+                {
+                    "id": 15,
+                    "title": "From the comfort zone to an international financial analyst",
+                    "author": "Nguyễn Gia Khánh",
+                    "description": "Switching majors was never an easy choice. Yet Gia Khánh bravely moved from Hospitality Management to Finance, balancing work and study while pursuing the CFA qualification.",
+                    "categories": ["resilient", "strategic", "leading"],
+                    "image": "./images/nguyen-gia-khanh.png",
+                    "link": "#"
+                }
+            ]
+        }
+    }
+}

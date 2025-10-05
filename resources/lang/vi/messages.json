@@ -1,0 +1,251 @@
+{
+    "header": {
+        "home": "Trang chủ",
+        "stories": "Câu chuyện",
+        "language": {
+            "vietnamese": "Tiếng Việt",
+            "english": "Tiếng Anh",
+            "vie": "Vie",
+            "eng": "Eng"
+        }
+    },
+    "navigation": {
+        "home": "Trang chủ",
+        "about": "Giới thiệu", 
+        "news": "Tin tức",
+        "contact": "Liên hệ",
+        "services": "Dịch vụ",
+        "products": "Sản phẩm"
+    },
+    "common": {
+        "read_more": "Xem thêm",
+        "view_all": "Xem tất cả",
+        "search": "Tìm kiếm",
+        "share": "Chia sẻ",
+        "back": "Quay lại",
+        "next": "Tiếp theo",
+        "previous": "Trước đó",
+        "close": "Đóng",
+        "submit": "Gửi",
+        "cancel": "Hủy",
+        "save": "Lưu",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa",
+        "confirm": "Xác nhận",
+        "loading": "Đang tải...",
+        "no_data": "Không có dữ liệu",
+        "contact_us": "Liên hệ với chúng tôi",
+        "quick_links": "Liên kết nhanh"
+    },
+    "footer": {
+        "copyright": "© 2024 BUV. Tất cả quyền được bảo lưu.",
+        "university_name": "TRƯỜNG ĐẠI HỌC ANH QUỐC VIỆT NAM",
+        "website": "Website",
+        "email": "Email",
+        "address": "Địa chỉ",
+        "address_detail": "Trường Đại học Anh Quốc Việt Nam, Khu đô thị Ecopark, Hưng Yên",
+        "address_note": "Cách trung tâm Hà Nội 20 phút",
+        "follow_us": "THEO DÕI CHÚNG TÔI",
+        "social_media": "Mạng xã hội"
+    },
+    "pages": {
+        "home": {
+            "title": "Trang chủ - BUV",
+            "description": "Chào mừng đến với BUV",
+            "main_title": "THE LIONHEARTED stories",
+            "main_description": "Khám phá những hành trình đầy bản lĩnh của cộng đồng BUV - nơi không chỉ truyền thụ tri thức mà còn nuôi dưỡng tinh thần kiên cường, biến thử thách thành sức mạnh, để mỗi cá nhân tự tin dẫn dắt, biết sẻ chia và kiến tạo đổi thay trong một thế giới không ngừng thay đổi.",
+            "resilient": {
+                "title": "KIÊN CƯỜNG",
+                "description": "Vượt qua thử thách và không ngừng tiến về phía trước"
+            },
+            "confident": {
+                "title": "TỰ TIN",
+                "description": "Lên tiếng, dẫn dắt và hành động để tạo nên khác biệt"
+            },
+            "strategic": {
+                "title": "TẦM NHÌN CHIẾN LƯỢC",
+                "description": "Nhìn xa trông rộng với tư duy chiến lược"
+            },
+            "caring": {
+                "title": "TỬ TẾ",
+                "description": "Sống chân thành và hướng đến cộng đồng"
+            },
+            "leading": {
+                "title": "TIÊN PHONG DẪN LỐI",
+                "description": "Tạo nên những thay đổi tích cực cho tương lai"
+            },
+            "banner": {
+                "desktop_image": "./images/banner-pc-vi.png",
+                "mobile_image": "./images/banner-mobile-vi.png",
+                "alt_text": "Banner BUV tiếng Việt"
+            },
+            "stories": {
+                "title": "KHÁM PHÁ CÁC CÂU CHUYỆN",
+                "tabs": {
+                    "all": "Tất cả",
+                    "resilient": "Kiên cường",
+                    "caring": "Tử tế", 
+                    "leading": "Tiên phong",
+                    "confident": "Tự tin",
+                    "strategic": "Chiến lược"
+                }
+            }
+        },
+        "stories": {
+            "title": "KHÁM PHÁ CÁC CÂU CHUYỆN",
+            "description": "Những câu chuyện tại BUV",
+            "tabs": {
+                "all": "Tất cả",
+                "resilient": "Kiên cường",
+                "caring": "Tử tế", 
+                "leading": "Tiên phong",
+                "confident": "Tự tin",
+                "strategic": "Chiến lược"
+            },
+            "list": [
+                {
+                    "id": 1,
+                    "title": "Từ cử nhân BUV đến học giả nghiên cứu sau tiến sĩ tại Oxford",
+                    "author": "Trần Bích Phương",
+                    "description": "Kiên định theo đuổi đam mê nghiên cứu, Bích Phương lần lượt chinh phục tấm bằng Thạc Sĩ và Tiến Sĩ tại Bỉ & Thụy Điển, hiện là học giả sau Tiến sĩ tại Đại học Oxford.",
+                    "categories": ["resilient", "strategic"],
+                    "image": "./images/tran-bich-phuong.png",
+                    "link": "#"
+                },
+                {
+                    "id": 2,
+                    "title": "Từ nữ sinh tỉnh lẻ đến hành trình ghi dấu trên sân chơi quốc tế",
+                    "author": "Chu Thị Phương Anh",
+                    "description": "Xuất thân từ một gia đình bình dị và là người đầu tiên trong nhà bước chân vào đại học, Phương Anh đã chọn lối rẽ táo bạo khi quyết tâm chinh phục học bổng tại một ngôi trường quốc tế.",
+                    "categories": ["resilient", "confident", "strategic", "caring", "leading"],
+                    "image": "./images/chu-thi-phuong-anh.png",
+                    "link": "#"
+                },
+                {
+                    "id": 3,
+                    "title": "Từ bản làng nghèo khó đến cánh cổng trường Đại học quốc tế",
+                    "author": "Ốc Thị Quỳnh Anh",
+                    "description": "Sinh ra ở bản làng miền núi Nghệ An, Quỳnh Anh từng đối diện nhiều thiếu thốn và biến cố, nhưng vẫn nuôi đốm sáng ước mơ học tập.",
+                    "categories": ["resilient", "confident", "caring", "leading"],
+                    "image": "./images/oc-thi-quynh-anh.png",
+                    "link": "#"
+                },
+
+
+                {
+                    "id": 9,
+                    "title": "Từ lá thư từ chối đến bệ phóng nghiên cứu quốc tế",
+                    "author": "Lý Minh Anh",
+                    "description": "Lá thư từ chối của Đại học Cornell không khép lại ước mơ nghiên cứu, mà mở đường để Minh Anh tiếp tục hành trình tại Đại học Colorado Boulder, nơi Minh Anh có cơ hội trở thành diễn giả ở các diễn đàn quốc tế.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/ly-minh-anh.png",
+                    "link": "#"
+                },
+                {
+                    "id": 10,
+                    "title": "Từ chú cừu nhút nhát đến trái tim sư tử bản lĩnh",
+                    "author": "Đỗ Linh Giang",
+                    "description": "Từ cô bé rụt rè, luôn né tránh ánh nhìn, Linh Giang đã dũng cảm bước khỏi vùng an toàn.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/do-linh-giang.png",
+                    "link": "#"
+                },
+                {
+                    "id": 11,
+                    "title": "Từ nam sinh ‘cá biệt’ đến lãnh đạo trẻ bản lĩnh",
+                    "author": "Nguyễn Ngọc Nhật Anh",
+                    "description": "Từ cậu học trò “cá biệt” với học lực trung bình, Nhật Anh đã bứt phá nhờ khát vọng đổi thay và nghị lực bền bỉ, giành học bổng toàn phần ở BUV và mở ra hành trình mới.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/nguyen-ngoc-nhat-anh.png",
+                    "link": "#"
+                },
+
+
+                {
+                    "id": 4,
+                    "title": "Từ nghịch cảnh đến hành trình lan tỏa giá trị cho cộng đồng",
+                    "author": "Trịnh Thị Kim Chung",
+                    "description": "Gần hai năm trước, khi đang là một người mẹ, một nữ khởi nghiệp và sống trọn vẹn với ước mơ, Kim Chung bất ngờ đối diện với chẩn đoán ung thư giai đoạn cuối.",
+                    "categories": ["resilient", "caring", "leading"],
+                    "image": "./images/trinh-thi-kim-chung.png",
+                    "link": "#"
+                },
+                {
+                    "id": 5,
+                    "title": "Từ nỗ lực vượt sướng đến hành trình khởi nghiệp ở tuổi 18",
+                    "author": "Lê Thị Minh Yến",
+                    "description": "Minh Yến từng bước “vượt sướng”, từ khởi nghiệp đầu tư chứng khoán khi mới 18 tuổi đến sáng lập học viện đầu tư tài chính Genstock. Mỗi lựa chọn táo bạo đều trở thành chất liệu để Yến xây dựng hành trình bền bỉ và giàu trải nghiệm.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/le-thi-minh-yen.png",
+                    "link": "#"
+                },
+                {
+                    "id": 6,
+                    "title": "Từ vòng tay của ông ngoại đến những bước chân bản lĩnh",
+                    "author": "Lê Minh Đức",
+                    "description": "Sinh ra với bệnh xương thủy tinh, trải qua 40 lần gãy xương và 15 ca phẫu thuật, Minh Đức vẫn kiên cường nuôi giấc mơ học tập. Giành Học bổng Nhà Sáng Lập 2024 của BUV, Đức từng bước vượt qua giới hạn, trở nên tự tin và gắn kết với cộng đồng quốc tế.",
+                    "categories": ["resilient", "confident", "caring"],
+                    "image": "./images/le-minh-duc.png",
+                    "link": "#"
+                },
+
+            {
+                    "id": 12,
+                    "title": "Từ khát vọng được sống đến hành trình gieo mầm hy vọng",
+                    "author": "Nguyễn Thị Oanh",
+                    "description": "Sinh ra chỉ nặng 900 gram và từng bị chính người thân chối bỏ, Oanh lớn lên giữa thiếu thốn và thử thách nhưng chưa bao giờ ngừng tin vào giá trị của mình. Từ học bổng Trái Tim Sư Tử đến tốt nghiệp hạng Xuất Sắc, cô kiên cường vượt mọi biến cố và lan tỏa hy vọng qua hoạt động thiện nguyện.",
+                    "categories": ["resilient", "caring"],
+                    "image": "./images/nguyen-thi-oanh.png",
+                    "link": "#"
+                },
+                {
+                    "id": 13,
+                    "title": "Từ ước mơ sau cửa sổ bệnh viện đến khát vọng xây dựng bản làng",
+                    "author": "Vi Thanh Nhật",
+                    "description": "Sinh ra trong một bản làng dân tộc Thái và mang bệnh thiếu máu huyết tán bẩm sinh, Thanh Nhật đã biến tuổi thơ gắn liền với bệnh viện thành động lực vươn lên.",
+                    "categories": ["resilient", "confident", "caring"], 
+                    "image": "./images/vi-thanh-nhat.png",
+                    "link": "#"
+                },
+                {
+                    "id": 14,
+                    "title": "Từ áp lực thành tích đến bản lĩnh “Dám” chấp nhận",
+                    "author": "Phạm Hoàng Minh Khuê",
+                    "description": "Từ áp lực phải giữ vị trí dẫn đầu, Khuê dần học cách chấp nhận bản thân, biến những va vấp thành động lực để khuyến khích người trẻ dám thử và dám đổi mới.",
+                    "categories": ["resilient", "confident", "strategic", "leading"],
+                    "image": "./images/pham-hoang-minh-khue.png",
+                    "link": "#"
+                },
+
+
+                {
+                    "id": 7,
+                    "title": "Từ hoài nghi bản thân đến người ươm tự tin cho cộng đồng",
+                    "author": "Trần Minh Đức",
+                    "description": "Vượt qua những hoài nghi về bản thân, Minh Đức trưởng thành khi dẫn dắt dự án Vscholar, nơi Đức trao cơ hội và tiếp lửa tự tin cho cộng đồng.",
+                    "categories": ["resilient", "confident", "strategic", "caring"],
+                    "image": "./images/tran-minh-duc.png",
+                    "link": "#"
+                },
+                {
+                    "id": 8,
+                    "title": "Khi một người phụ nữ học, cả một thế hệ thay đổi",
+                    "author": "Bùi Thị Thanh Phương",
+                    "description": "Trở thành mẹ ở tuổi 18, Thanh Phương từng chùn bước trước ánh nhìn dò xét, nhưng tình thương và niềm tin đã giúp Phương đứng dậy. Thanh Phương tìm lại giá trị bản thân ở BUV, tiếp tục học tập và vững vàng tiến về phía trước.",
+                    "categories": ["resilient", "caring", "leading"],
+                    "image": "./images/bui-thi-thanh-phuong.png",
+                    "link": "#"
+                },
+                {
+                    "id": 15,
+                    "title": "Từ vùng an toàn đến nhà phân tích tài chính quốc tế",
+                    "author": "Nguyễn Gia Khánh",
+                    "description": "Chuyển ngành chưa bao giờ là quyết định dễ dàng, nhưng Gia Khánh đã dũng cảm rẽ từ Quản trị Khách sạn sang tài chính, vừa đi làm vừa chinh phục chứng chỉ CFA.",
+                    "categories": ["resilient", "strategic", "leading"],
+                    "image": "./images/nguyen-gia-khanh.png",
+                    "link": "#"
+                }
+            ]
+        }
+    }
+}

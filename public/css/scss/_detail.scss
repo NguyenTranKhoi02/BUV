@@ -1,0 +1,140 @@
+.detail {
+  &__flax--text {
+    position: relative;
+    overflow: hidden;
+
+    .wrap-top--banner {
+      height: 100vh;
+
+      .banner-lion {
+        position: absolute;
+        width: 100%;
+        top: 107px;
+        left: 0%;
+        z-index: 3;
+        transition: all 0.3s;
+
+        @media (max-width: 1309px) {
+          left: -20%;
+        }
+
+        @media (max-width: 991px) {
+          top: 120px;
+          left: -25%;
+        }
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .banner-2d {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        transition: all 0.3s;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .box--wrap {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      z-index: 5;
+      transition: all 0.3s;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      gap: 10px;
+
+      .box-user {
+        height: 100%;
+        padding-top: 70px;
+
+        .item-user {
+          display: flex;
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+
+      .box-cnt {
+        display: flex;
+        flex-direction: column;
+        padding-top: 190px;
+      }
+
+      .logo {
+        display: flex;
+        margin-bottom: 49px;
+      }
+
+      .title-effect {
+        color: #fff;
+        font-family: "SVN-Brandon Grotesque";
+        font-size: 48.762px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 132.5%; /* 64.61px */
+        text-transform: uppercase;
+        width: 630px;
+        margin-bottom: 85px;
+
+        @media (max-width: 1309px) {
+          font-size: 40px;
+          margin-bottom: 40px;
+        }
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .name {
+          background: #fff;
+          display: block;
+          padding: 5px 29px;
+          color: #db0207;
+          leading-trim: both;
+          text-edge: cap;
+          font-family: "SVN-Brandon Grotesque";
+          font-size: 24.952px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 132.5%;
+          letter-spacing: 1.747px;
+          text-transform: uppercase;
+          width: fit-content;
+        }
+
+        .sv {
+          color: #fff;
+          font-family: "Work Sans";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 132.5%;
+          letter-spacing: -0.6px;
+          width: 352px;
+          padding-left: 22px;
+          border-left: 4px solid #f2ebf0;
+        }
+      }
+    }
+  }
+}

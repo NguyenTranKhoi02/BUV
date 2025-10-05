@@ -1,0 +1,120 @@
+.footer {
+  position: relative;
+  padding: 64px;
+
+  @media (max-width: 1199px) {
+    padding: 32px 16px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../images/BUVCrystals2D.png) center / cover no-repeat,
+      var(--Footer, #ae0724);
+    mix-blend-mode: multiply;
+    z-index: 2;
+  }
+
+  &__middle {
+    display: flex;
+    gap: 64px;
+    position: relative;
+    z-index: 3;
+
+    @media (max-width: 1199px) {
+      gap: 40px;
+    }
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+
+    .logo-ft {
+      display: flex;
+      height: 98px;
+    }
+
+    .footer--about {
+      flex: 1;
+
+      .text {
+        color: #fff;
+        font-family: "Work Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .col {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+
+          .name {
+            width: 95px;
+            display: block;
+            color: #fff;
+            font-family: "Work Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+
+          .value {
+            display: block;
+            color: #fff;
+            font-family: "Work Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            flex: 1;
+          }
+        }
+      }
+    }
+
+    .footer--flow {
+      .txt {
+        display: block;
+        color: #fff;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        text-align: right;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+
+        @media (max-width: 991px) {
+            text-align: left;
+        }
+      }
+
+      .list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .item {
+          display: flex;
+        }
+      }
+    }
+  }
+}

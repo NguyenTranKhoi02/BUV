@@ -1,0 +1,358 @@
+.section {
+  &__banner--effect {
+  }
+
+  &__flax--text {
+    position: relative;
+
+    .wrap-top--banner {
+      height: 100vh;
+
+      .banner-lion {
+        position: absolute;
+        width: 100%;
+        top: 107px;
+        left: -14%;
+        z-index: 3;
+        transition: all 0.3s;
+
+        @media (max-width: 1309px) {
+          left: -20%;
+        }
+
+        @media (max-width: 991px) {
+          top: 120px;
+          left: -25%;
+        }
+
+        img {
+          height: 100%;
+        }
+      }
+
+      .banner-2d {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        transition: all 0.3s;
+        mix-blend-mode: multiply;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          mix-blend-mode: multiply;
+        }
+      }
+    }
+
+    .box--wrap {
+      position: absolute;
+      width: 100%;
+      top: 22%;
+      left: 0;
+      z-index: 5;
+      transition: all 0.3s;
+
+      @media (max-width: 428px) {
+        top: 20%;
+      }
+
+      .box-cnt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        margin: 0 auto;
+        max-width: 919px;
+
+        @media (max-width: 991px) {
+          gap: 16px;
+        }
+      }
+
+      .title-effect {
+        text-align: center;
+        font-family: "SVN-Brandon Grotesque";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88.472px;
+        letter-spacing: -2.88px;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #fff 61.12%, #f5c28a 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @media (max-width: 1309px) {
+          font-size: 76px;
+          line-height: 68px;
+        }
+
+        @media (max-width: 991px) {
+          font-size: 45.734px;
+          line-height: 49px; /* 107.142% */
+          letter-spacing: -1.372px;
+          background: linear-gradient(180deg, #fff 61.12%, #f5c28a 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .des {
+        color: #fff;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 414px;
+
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__leading {
+    padding: 0 65px;
+    margin-top: -35vh;
+    position: relative;
+    z-index: 4;
+
+    @media (max-width: 1309px) {
+      padding: 0 30px;
+    }
+
+    @media (max-width: 991px) {
+      margin-top: -45vh;
+      padding: 0 16px;
+    }
+
+    @media (max-width: 428px) {
+      margin-top: -35vh;
+    }
+
+    .list--leading {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      justify-content: center;
+      transition: all 0.3s;
+
+      @media (max-width: 991px) {
+        gap: 8px;
+      }
+
+      .item--leading {
+        width: calc(20% - 26px);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 24px;
+        background: url("../../images/hinhtron.png") center/cover no-repeat,
+          linear-gradient(180deg, #f4edda 35%, #f5bf86 100%);
+        box-shadow: 0 171.51px 69.206px 0 rgba(76, 7, 22, 0.07),
+          0 96.286px 57.17px 0 rgba(76, 7, 22, 0.25),
+          0 42.125px 42.125px 0 rgba(76, 7, 22, 0.43),
+          0 10.531px 24.072px 0 rgba(76, 7, 22, 0.49),
+          4.283px 11.777px 12.848px 0 #fff inset;
+        background-position: top;
+        padding: 24px;
+
+        @media (max-width: 1309px) {
+          width: calc(33% - 18px);
+        }
+
+        @media (max-width: 991px) {
+          width: calc(33% - 4px);
+          padding: 8px;
+        }
+
+        @media (max-width: 428px) {
+          width: calc(50% - 4px);
+        }
+
+        &:nth-child(2),
+        &:nth-child(4) {
+          margin-top: 46px;
+
+          @media (max-width: 1309px) {
+            margin-top: 0;
+          }
+        }
+
+        &:nth-child(3) {
+          margin-top: 96px;
+
+          @media (max-width: 1309px) {
+            margin-top: 0;
+          }
+        }
+
+        .avatar {
+          width: 190px;
+          margin-bottom: 36px;
+
+          @media (max-width: 991px) {
+            width: 100%;
+            margin-bottom: 13px;
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .content {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+
+          @media (max-width: 991px) {
+            gap: 4px;
+          }
+
+          .titlle-link {
+            display: block;
+            color: #cc1e23;
+            text-align: center;
+            font-family: "Work Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+            @media (max-width: 991px) {
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+
+          .sapo {
+            color: #363232;
+            text-align: center;
+            font-family: "Work Sans";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            @media (max-width: 991px) {
+              font-size: 9.5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__banner--web {
+    padding: 64px 0;
+
+    @media (max-width: 767px) {
+      padding-top: 0;
+      padding-bottom: 40px;
+    }
+
+    .item-banner {
+      display: flex;
+      justify-content: center;
+      margin: 0 16px;
+
+      img {
+        border-radius: 24px;
+        box-shadow: 0 66.497px 26.832px 0 rgba(76, 7, 22, 0.07),
+          0 37.332px 22.166px 0 rgba(76, 7, 22, 0.25),
+          0 16.333px 16.333px 0 rgba(76, 7, 22, 0.43),
+          0 4.083px 9.333px 0 rgba(76, 7, 22, 0.49),
+          1.66px 4.566px 4.981px 0 #fff inset,
+          4.283px 2.78px 8px 0 #d75456 inset;
+      }
+    }
+  }
+
+  &__lett--your {
+    padding: 64px;
+
+    @media (max-width: 1309px) {
+      padding: 50px;
+    }
+
+    @media (max-width: 991px) {
+      padding: 50px 16px;
+    }
+
+    .box--lett {
+      .title-effect {
+        text-align: center;
+        font-family: "SVN-Brandon Grotesque";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 69px;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #fff 61.12%, #f5c28a 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 16px;
+
+        @media (max-width: 991px) {
+          font-size: 29px;
+          line-height: 30px; /* 103.448% */
+          letter-spacing: -0.87px;
+          background: linear-gradient(180deg, #fff 61.12%, #f5c28a 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .list--tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+      }
+
+      .item--tab {
+        display: block;
+        border-radius: 48px;
+        background: rgba(228, 228, 228, 0.65);
+        padding: 4px 16px;
+        color: #fff;
+        font-family: "Work Sans";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: 0.5s;
+
+        &.active {
+          border-radius: 48px;
+          background: #fff;
+          color: #c90025;
+        }
+
+        &:hover {
+          border-radius: 48px;
+          background: #fff;
+          color: #c90025;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+/* Banner responsive styles */
+.section__banner--web {
+    width: 100%;
+    overflow: hidden;
+}
+
+.section__banner--web .item-banner {
+    width: 100%;
+    display: block;
+}
+
+/* Base styles for both images */
+.section__banner--web .item-banner .banner-desktop,
+.section__banner--web .item-banner .banner-mobile {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+/* Hide mobile by default */
+.section__banner--web .item-banner .banner-mobile {
+    display: none;
+}
+
+/* Show desktop by default */
+.section__banner--web .item-banner .banner-desktop {
+    display: block;
+}
+
+/* Mobile responsive - Show mobile image, hide desktop */
+@media (max-width: 768px) {
+    .section__banner--web .item-banner .banner-desktop {
+        display: none !important;
+    }
+    
+    .section__banner--web .item-banner .banner-mobile {
+        display: block !important;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+/* Tablet responsive - Show desktop image */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .section__banner--web .item-banner .banner-mobile {
+        display: none !important;
+    }
+    
+    .section__banner--web .item-banner .banner-desktop {
+        display: block !important;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+/* Desktop responsive - Show desktop image with max-width */
+@media (min-width: 1025px) {
+    .section__banner--web .item-banner .banner-mobile {
+        display: none !important;
+    }
+    
+    .section__banner--web .item-banner .banner-desktop {
+        display: block !important;
+        max-width: 1172px;
+        max-height: 600px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    
+    .section__banner--web .item-banner {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Ensure proper responsive behavior */
+.banner-picture {
+    display: block;
+    width: 100%;
+    line-height: 0;
+}
+
+.banner-picture source {
+    display: none;
+}
+
+.banner-picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
